@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pods
+metadata: 
+  name: my-app
+  labels:
+    type: Nonprod
+spec:
+  containers:
+    - name: my-nginx
+      image: nginx
+
+    - name: my-busybox
+      image: busybox
